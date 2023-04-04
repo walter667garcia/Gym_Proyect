@@ -130,12 +130,12 @@
 }
 
 .heart-rate>img {
-    width: 2rem;
+    width: 3.5rem;
 }
 
 .heart-rate>:nth-child(2) {
 
-    color: var(--gray);
+    color: #17b890;
 }
 
 .heart-rate>:nth-child(3) {
@@ -145,9 +145,9 @@
 
 .hero-image {
     position: absolute;
-    top: 10rem;
-    right: 8rem;
-    width: 23rem;
+    top: 3.6rem;
+    right: 3.5rem;
+    width: 28rem;
 }
 
 .hero-image-back {
@@ -161,13 +161,34 @@
 
 .calories {
     display: flex;
-    gap: 2rem;
-    background-color: var(--caloryCard);
+    gap: 1rem;
+    background-color: var(--gray);
     border-radius: 1.5rem;
     padding: 1rem;
-    width: fit-content;
+    width: 12rem;
     position: absolute;
     top: 32rem;
-    right: 28rem;
+    right: 38rem;
+    border: 1px solid white;
 
+}
+.calories>img{
+    width: 3rem;
+    border-radius: 7rem;
+}
+
+.calories>div>span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.calories > div>span:nth-child(1){
+    color:#ec3295;
+}
+
+.calories>div>span:nth-child(2){
+color: white;
+  font-size: 1.5rem;
 }
