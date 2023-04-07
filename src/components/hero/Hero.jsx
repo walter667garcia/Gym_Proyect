@@ -14,7 +14,7 @@ const Hero = () => {
 
                 {/* the best ad */}
                 <div className="the-best-ad">
-                    <div>
+                    <div >
 
                     </div>
                     <span>
@@ -24,12 +24,12 @@ const Hero = () => {
 
                 {/* hero heading */}
                 <div className='hero-text'>
-                    <div>
+                    <div className='tituloA'>
                         <span className='stroke-text'>Shape </span>
                         <span>Your</span>
                     </div>
 
-                    <div>
+                    <div className='titulo'>
                         <span>Ideal Body </span>
                     </div>
 
@@ -74,9 +74,9 @@ const Hero = () => {
                 <button className="btn">Join Now</button>
 
                 <div className="heart-rate">
-                    <img src={Heart} alt="" />
+                    <img src={Heart} alt="" className='corazon' />
                     <span>Heart Rate</span>
-                    <span>~ 123 bpm</span>
+                    <span className='palpitidos'>~ 123 bpm</span>
                 </div>
                 {/* hero images */}
 

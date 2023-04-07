@@ -24,17 +24,17 @@
 .category {
     display: flex;
     flex-direction: column;
-    background-color: var(--gray);
+    background-color: #F3F3F3;
     padding: 2rem;
     gap: 1rem;
-    color: white;
+    color: #666666;
     justify-content: space-between;
 }
 
 .category> :nth-child(1){
     width: 2rem;
     height: 2rem;
-    fill: white;
+    fill:  #333333;;
 }
 
 .category> :nth-child(2) {
@@ -54,9 +54,14 @@ line-height: 25px;
 
 .join-now>img {
     width: 1rem;
+
 }
 
+
 .category:hover{
-    background-color: var(--planCard);
+    background: var(--planCard);
     cursor: pointer;
+
+    color: #F3F3F3;
 }
+
